@@ -1,7 +1,7 @@
 def new_scrab(scrabble_old)
 
   converted_hash = {}
-
+  result = ""
   scrabble_old.each do |score, letters|
     letters.each do |letter|
       converted_hash[letter] = score

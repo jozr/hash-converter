@@ -1,5 +1,5 @@
-require = ('rspec')
-require = ('new_scrab')
+require  ('rspec')
+require  ('new_scrab')
 
 describe('new_scrab') do
   it('should reorder a single hash key set to values with keys') do
